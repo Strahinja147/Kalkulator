@@ -14,7 +14,7 @@ bool Validator::TekstJeValidan(const vector<string>& vektorStringova, vector<str
     if (tokenizovaniUnetiString.empty() || tokenizovaniUnetiString.size() < 3) {
         return false;
     }
-
+    
     const string& prvi = tokenizovaniUnetiString.front();
     const string& zadnji = tokenizovaniUnetiString.back();
 
